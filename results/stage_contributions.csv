@@ -1,0 +1,7 @@
+stage,activity,activity_unit,factor,modeled_kgco2e
+material production and proxies,0.8823605999999999,kg purchased material,mixed material factors,3.0997631989310825
+polymer and film conversion electricity,0.9094095,kWh,0.5804066312682304,0.5278273043383258
+metal forming electricity,0.110625,kWh,0.5804066312682304,0.064207483584048
+cardboard box conversion electricity,0.0044064335,kWh,0.5804066312682304,0.002557523223642478
+assembly electricity,0.1,kWh,0.5804066312682304,0.058040663126823044
+inbound road transport direct emissions,0.44118029999999997,t*km,0.0719014652094225,0.03172150999153258

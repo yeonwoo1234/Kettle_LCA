@@ -1,0 +1,2 @@
+asset_path,role,source_or_provenance,obtained_date,sha256,status
+data/bom.csv,foreground finished-mass inventory,"Student-provided BOM in this conversation; course Decision Lab page attributes original to EU Electric Kettles preparatory study (2020) Task 4 Tables 4-3/4-4/4-8",2026-10-08,3c32aae6fce473c8758a754d55ef26c0761273d846417c211c13d77488b3ff8a,available

@@ -1,0 +1,11 @@
+profile,factor_kgco2e_per_kg,process_uuid,process_name,process_version,geography,reference_amount,reference_unit,active_processes,unlinked_input_rows,direct_impact_per_process
+steel,7.86561142456385,49f5324b-fc33-36e9-b5af-3c80d73492bd,"Steel, stainless 304, flat rolled coil",00.01.011,Northern America,1.0,kg,2,0,4.407936424286756
+zinc,3.1900206164376246,230e8d51-1f4d-3459-be47-429b0b828add,"Zinc, Special High Grade",00.00.010,Global,1000.0,kg,1,6,3190.0206164376245
+PP,1.952757095607696,2e8facf6-46aa-4ddb-95de-a4e2a00eb2bb,"Polypropylene, PP, virgin resin, at plant",00.01.004,Northern America,1.0,kg,116,184,0.18417908938046917
+PVC,2.9263423185003163,3dbccdda-2014-4239-ad1f-4e15c034942b,"Polyvinyl chloride resin, suspension grade PVC; at plant",00.01.007,United States of America (the),1.0,kg,153,285,0.09378674673337083
+ABS,2.7319687180186696,0e42a306-ee2d-362e-8bc3-580000096459,"Acrylonitrile-butadiene-styrene, ABS, copolymer resin, at plant",00.01.002,Northern America,1.0,kg,126,195,0.29294483352791995
+LDPE,2.3807251368340245,6a12cba1-889d-4515-90f8-89feb8d662f2,"Polyethylene, low-density, LDPE, virgin resin, at plant",00.01.003,Northern America,1.0,kg,115,184,0.578289319704819
+rubber_proxy,2.3781354699268844,fa60e60f-73f0-3e20-bb3a-073e4a9469cc,"Polybutadiene, butadiene rubber; at plant",02.01.001,Northern America,1.0,kg,116,186,0.0
+cardboard,2.141568881396218,226ed3c2-e020-4c95-b1fc-4559fc2d18ac,"Corrugated product, average production, at mill",00.01.003,United States of America (the),1.0,kg,137,241,0.07043453
+copper,5.88,84f07e17-6318-47ba-a4d0-866068257bbd,Tiangong copper direct climate emissions,see source,CN/US proxy,1,kg,unknown,unknown,not applicable
+brass,5.0730061849312875,composite,70% copper + 30% zinc proxy,see source,CN/US proxy,1,kg,unknown,unknown,not applicable

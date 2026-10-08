@@ -1,0 +1,53 @@
+{
+  "run_id": "screening-2026-10-08-v1",
+  "status": "screening scenario with incomplete upstream closure; NOT a complete factory-gate LCA",
+  "modeled_total_kgco2e_per_packaged_kettle": 3.7841176831954546,
+  "material_kgco2e": 3.0997631989310825,
+  "manufacturing_kgco2e": 0.6526329742728393,
+  "transport_kgco2e": 0.03172150999153258,
+  "top_contributors": [
+    {
+      "name": "Stainless steel",
+      "kgco2e": 1.463003724968876
+    },
+    {
+      "name": "Polypropylene (PP)",
+      "kgco2e": 0.7072075806096397
+    },
+    {
+      "name": "polymer and film conversion electricity",
+      "kgco2e": 0.5278273043383258
+    }
+  ],
+  "bom_kettle_kg": 0.723,
+  "bom_packaging_kg": 0.1378,
+  "purchased_mass_kg": 0.8823605999999999,
+  "implied_process_scrap_kg": 0.02156059999999993,
+  "grid_direct_kgco2e_per_kwh": 0.5804066312682304,
+  "truck_direct_kgco2e_per_tkm": 0.0719014652094225,
+  "uslci_unlinked_rows_across_profiles": 1281,
+  "uncertainty": {
+    "draws": 10000,
+    "seed": 20261008,
+    "mean": 3.9183970108545814,
+    "median": 3.9166575410216407,
+    "p05": 3.563441901207429,
+    "p95": 4.2793705073115165,
+    "half_sample_mean_relative_difference": 2.225671196376383e-05,
+    "scope": "Conditional parameter and proxy scenario only; missing upstream processes and uncharacterized gases are outside this interval."
+  },
+  "checks": {
+    "material_plus_manufacturing_plus_transport_equals_total": true,
+    "kettle_plus_packaging_equals_total": true,
+    "bom_mass_kg": 0.8608,
+    "reference_unit": "1 packaged kettle",
+    "climate_gases_modeled": [
+      "generic CO2 treated as fossil",
+      "generic CH4 treated as fossil",
+      "N2O",
+      "SF6"
+    ],
+    "missing_provider_impacts": "unquantified, not zero",
+    "other_climate_flow_impacts": "unquantified, not zero"
+  }
+}

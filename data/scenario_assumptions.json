@@ -1,0 +1,25 @@
+{
+  "run_id": "screening-2026-10-08-v1",
+  "study_date": "2026-10-08",
+  "geography_assumption": "China",
+  "plastic_purchase_per_finished_kg": 1.034,
+  "cardboard_purchase_per_finished_kg": 1.0326,
+  "metal_purchase_per_finished_kg": 1.0,
+  "plastic_conversion_MJ_per_finished_kg": 6.444,
+  "metal_forming_kWh_per_finished_kg": 0.5,
+  "assembly_kWh_per_kettle": 0.1,
+  "inbound_road_km": 500.0,
+  "brass_copper_mass_fraction": 0.7,
+  "uncertainty_draws": 10000,
+  "uncertainty_seed": 20261008,
+  "notes": {
+    "plastic_purchase_per_finished_kg": "USLCI rigid PP injection molding process reports 1.034 kg PP input per 1 kg part; applied as a proxy to all polymers and LDPE film.",
+    "cardboard_purchase_per_finished_kg": "Tiangong corrugated box process reports 1032.6 kg board per 1000 kg boxes.",
+    "metal_purchase_per_finished_kg": "Analyst assumption: no metal forming loss; likely understates the result.",
+    "plastic_conversion_MJ_per_finished_kg": "USLCI rigid PP injection molding reports 6.444 MJ electricity per kg part; used as a conversion-only proxy to avoid adding its PP resin and packaging a second time.",
+    "metal_forming_kWh_per_finished_kg": "Analyst assumption; no kettle-specific metal forming data were provided.",
+    "assembly_kWh_per_kettle": "Analyst assumption; no kettle factory meter data were provided.",
+    "inbound_road_km": "Analyst assumption applied to purchased mass; actual supplier routes and modes are unknown.",
+    "brass_copper_mass_fraction": "Analyst proxy for an unspecified brass grade; remaining 30% is modeled as zinc."
+  }
+}

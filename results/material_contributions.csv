@@ -1,0 +1,13 @@
+material,scope,finished_mass_kg,purchase_mass_kg,profile,mapping_status,factor_kgco2e_per_kg,modeled_kgco2e,limitations
+Stainless steel,Kettle,0.186,0.186,steel,direct,7.86561142456385,1.463003724968876,USLCI stainless 304 flat rolled coil; actual grade unknown
+Brass,Kettle,0.02025,0.02025,brass,composite proxy,5.0730061849312875,0.10272837524485857,70% Tiangong primary copper direct emissions + 30% USLCI zinc; alloy process excluded
+Copper,Kettle,0.015,0.015,copper,direct-only,5.88,0.0882,Tiangong primary copper direct climate emissions; upstream providers excluded
+Polypropylene (PP),Kettle,0.35025,0.3621585,PP,direct,1.952757095607696,0.7072075806096397,USLCI virgin PP resin
+Polyvinyl chloride (PVC),Kettle,0.0435,0.044979,PVC,direct,2.9263423185003163,0.13162395114382572,USLCI suspension PVC resin; grade/additives unknown
+"Nylon, grade unspecified",Kettle,0.0495,0.051183000000000006,ABS,proxy,2.7319687180186696,0.13983035489434958,ABS resin substitutes for unspecified nylon; chemistry differs
+Polyoxymethylene (POM),Kettle,0.00975,0.0100815,ABS,proxy,2.7319687180186696,0.027542342630705218,ABS resin substitutes for POM; chemistry differs
+Polycarbonate (PC),Kettle,0.00675,0.0069795000000000005,ABS,proxy,2.7319687180186696,0.019067775667411305,ABS resin substitutes for PC; chemistry differs
+Acrylonitrile-butadiene-styrene (ABS),Kettle,0.03,0.03102,ABS,direct,2.7319687180186696,0.08474566963293913,USLCI ABS copolymer resin
+Silicone,Kettle,0.012,0.012408,rubber_proxy,proxy,2.3781354699268844,0.029507904910852784,Polybutadiene rubber substitutes for silicone rubber; chemistry differs
+LDPE packaging foil,Packaging,0.0063,0.0065142,LDPE,proxy,2.3807251368340245,0.015508519686364203,LDPE resin matches polymer; film conversion proxied separately
+Cardboard packaging,Packaging,0.1315,0.1357869,cardboard,proxy,2.141568881396218,0.2907969995412601,Average corrugated board and separate box conversion; board type unknown
