@@ -1,6 +1,6 @@
 # BC1 1 L plastic electric kettle: LCA study record
 
-**Calculated screening scenario:** **3.784 kg CO₂e per manufactured and packaged kettle** for `screening-2026-10-08-v1`. This is a numerical **four-gas, proxy-based modeled subtotal**, **not a verified complete cradle-to-factory-gate GWP100 result**. The selected public inventories leave 1,281 upstream provider-input rows unlinked across the eight USLCI profiles, and several materials and factory activities use explicit proxies. Their omitted effects are **unquantified, not zero**. Do not use 3.784 kg CO₂e as a final product carbon footprint or comparative assertion.
+**Calculated screening GWP100 subtotal:** **3.784118 kg CO₂e per manufactured and packaged kettle** for `screening-2026-10-08-v1`. This value applies the stated 100-year characterization factors to four modeled gases and sums material production/proxies (**3.099763**), manufacturing electricity (**0.652633**) and inbound transport direct emissions (**0.031722 kg CO₂e**). It is a **four-gas, proxy-based modeled subtotal**, **not a verified complete cradle-to-factory-gate GWP100 result**. The selected public inventories leave 1,281 upstream provider-input rows unlinked across the eight USLCI profiles, and several materials and factory activities use explicit proxies. Their omitted effects are **unquantified, not zero**. Do not use 3.784118 kg CO₂e as a final product carbon footprint or comparative assertion.
 
 ![Modeled contribution chart](results/contributions.png)
 
@@ -103,7 +103,7 @@ The script downloads the pinned USLCI archive to `/tmp/kettle-lca-uslci/` if abs
 
 | Quantity or check | Result for `screening-2026-10-08-v1` |
 | --- | ---: |
-| **Modeled four-gas screening subtotal** | **3.784118 kg CO₂e/packaged kettle** |
+| **Modeled four-gas GWP100 screening subtotal** | **3.784118 kg CO₂e/packaged kettle** |
 | Materials and material proxies | 3.099763 kg CO₂e |
 | Conversion, metal forming and assembly electricity | 0.652633 kg CO₂e |
 | Inbound road transport, direct emissions | 0.031722 kg CO₂e |
